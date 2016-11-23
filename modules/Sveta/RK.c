@@ -4,10 +4,10 @@
 #include "stdio.h"
 #include "stdlib.h"
 #include "math.h"
+#include "omp.h"
 
 
-
-
+//#pragma openmp parallel for;
 
 int main() {
     FILE *fp;
